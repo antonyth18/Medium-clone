@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import { useBlog } from "../hooks"
 import { BlogPage } from "../components/BlogPage";
-import { Skeleton } from "../components/Skeleton";
+
 import { Spinner } from "../components/Spinner";
 
 export const Blog = () => {

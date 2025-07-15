@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import { useBlogs } from "../hooks"
 
 interface BlogCardType {
     authorName: string,

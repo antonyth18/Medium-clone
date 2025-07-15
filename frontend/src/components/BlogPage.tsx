@@ -1,4 +1,4 @@
-import App from "../App"
+
 import { Appbar } from "./Appbar"
 import { Avatar } from "./BlogCard"
 
