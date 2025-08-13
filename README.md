@@ -1,11 +1,11 @@
-# 📰 Medium Clone - Full Stack Blogging Platform
+# Medium Clone - Full Stack Blogging Platform
 
 A **full-stack blogging application** inspired by Medium, built with **Hono**, **Prisma Accelerate**, **React**, **TypeScript**, and **TailwindCSS**.  
 Users can **sign up**, **sign in**, **publish blogs**, and **read posts** — all secured with JWT-based authentication.
 
 ---
 
-## ✨ Features
+## Features
 
 - **User Authentication** – Signup & Signin with JWT
 - **Blog Management** – Create, Read, and Update blogs
@@ -16,7 +16,7 @@ Users can **sign up**, **sign in**, **publish blogs**, and **read posts** — al
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Backend**
 - [Hono](https://hono.dev/) – Lightweight & fast web framework
@@ -33,7 +33,7 @@ Users can **sign up**, **sign in**, **publish blogs**, and **read posts** — al
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 .
 ├── backend
@@ -55,13 +55,13 @@ Copy code
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/yourusername/medium-clone.git
 cd medium-clone
-2️⃣ Install Dependencies
+Install Dependencies
 Backend
 
 bash
@@ -80,14 +80,14 @@ bash
 Copy code
 cd ../common
 npm install
-3️⃣ Environment Variables
+Environment Variables
 Create a .env file inside backend:
 
 ini
 Copy code
 DATABASE_URL=your_database_connection_url
 JWT_SECRET=your_secret_key
-4️⃣ Run the Application
+Run the Application
 Backend
 
 bash
@@ -100,7 +100,7 @@ bash
 Copy code
 cd ../frontend
 npm run dev
-🔐 API Endpoints
+API Endpoints
 Auth
 Method	Endpoint	Description
 POST	/api/v1/user/signup	Create new account
