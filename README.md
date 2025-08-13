@@ -42,11 +42,13 @@ Users can **sign up**, **sign in**, **publish blogs**, and **read posts** — al
 │ │ └── blog.ts # Blog routes
 │ ├── index.ts # Entry point
 │ └── prisma schema
+
 ├── frontend
 │ ├── components/ # Reusable UI components
 │ ├── pages/ # Page components
 │ ├── hooks/ # Custom React hooks
 │ └── App.tsx
+
 ├── common
 │ └── validation schemas (Zod)
 
