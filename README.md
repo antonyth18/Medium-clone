@@ -1,4 +1,4 @@
-# Medium Clone - Full Stack Blogging Platform
+# Medium - Full Stack Blogging Platform
 
 A **full-stack blogging application** inspired by Medium, built with **Hono**, **Prisma Accelerate**, **React**, **TypeScript**, and **TailwindCSS**.  
 Users can **sign up**, **sign in**, **publish blogs**, and **read posts** — all secured with JWT-based authentication.
